@@ -10,11 +10,11 @@
     <!-- Query version link -->
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <!-- jQuery mobile link -->
-    <script src="code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
     <link
       rel="stylesheet"
-      href="code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
     />
     <!--
     <link rel="stylesheet" href="themes/mytheme.min.css" />
@@ -30,8 +30,8 @@
         <h1>Vector</h1>
         <div data-role="navBar">
           <ul>
-            <a href="#home">Home</a>
-            <a href="#contactus">Contact Us</a>
+            <a data-role="button" href="#home">Home</a>
+            <a data-role="button" href="#contactus">Contact Us</a>
           </ul>
         </div>
       </header>
@@ -70,14 +70,36 @@
         <h1>Vector</h1>
         <div data-role="navBar">
           <ul>
-            <a href="#home">Home</a>
-            <a href="#contactus">Contact Us</a>
+            <a data-role="button" href="#home">Home</a>
+            <a data-role="button" href="#contactus">Contact Us</a>
           </ul>
         </div>
       </header>
       <!-- Page body -->
       <section class="ui-content" role="main">
         <h2>Contact Us</h2>
+        <h4>
+          Please contact us by phone, mail, or email... whatever works best for
+          you
+        </h4>
+        <h4>Phone</h4>
+        <p><a href="tel:555-555-5555">555-555-5555</a></p>
+        <h4>Mail</h4>
+        <p>
+          VECTOR CORP <br />
+          104 College Avenue <br />
+          Red Deer, AB
+        </p>
+        <h4>Email</h4>
+        <p><a href="mailto:Vector@vectorcorp.ca">Vector@vectorcorp.ca</a></p>
+        <a
+          href="#"
+          data-role="button"
+          data-rel="back"
+          data-icon="back"
+          data-theme="b"
+          >Back to previous page</a
+        >
       </section>
       <!-- Footer section -->
       <footer class="footer"><h4>&copy; 2023</h4></footer>
