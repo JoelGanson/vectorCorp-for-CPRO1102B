@@ -39,8 +39,11 @@
             <a data-role="button" data-icon="mail" href="#contactus"
               >Contact Us</a
             >
-            <a data-role="button" data-icon="user" href="#management"
-              >Management</a
+            <a data-role="button" data-icon="user" href="#managementGrid"
+              >Management Grid</a
+            >
+            <a data-role="button" data-icon="star" href="#managementCollapse"
+              >Management Collapsible Content</a
             >
           </ul>
         </div>
@@ -88,8 +91,11 @@
               href="#contactus"
               >Contact Us</a
             >
-            <a data-role="button" data-icon="user" href="#management"
-              >Management</a
+            <a data-role="button" data-icon="user" href="#managementGrid"
+              >Management Grid</a
+            >
+            <a data-role="button" data-icon="star" href="#managementCollapse"
+              >Management Collapsible Content</a
             >
           </ul>
         </div>
@@ -124,7 +130,7 @@
       <footer data-role="footer"><h4>&copy; 2024</h4></footer>
     </div>
     <!-- Management Page -->
-    <div data-role="page" id="management">
+    <div data-role="page" id="managementGrid">
       <!-- Header section -->
       <header data-role="header">
         <h1>Vector</h1>
@@ -138,8 +144,11 @@
               data-role="button"
               class="ui-btn-active"
               data-icon="user"
-              href="#management"
-              >Management</a
+              href="#managementGrid"
+              >Management Grid</a
+            >
+            <a data-role="button" data-icon="star" href="#managementCollapse"
+              >Management Collapsible Content</a
             >
           </ul>
         </div>
@@ -211,6 +220,47 @@
             </center>
           </div>
         </div>
+
+        <a
+          href="#"
+          data-role="button"
+          data-rel="back"
+          data-icon="back"
+          data-theme="b"
+          >Back to previous page</a
+        >
+      </section>
+      <!-- Footer section -->
+      <footer data-role="footer"><h4>&copy; 2024</h4></footer>
+    </div>
+    <!-- Management collapsible content page -->
+    <div data-role="page" id="managementCollapse">
+      <!-- Header section -->
+      <header data-role="header">
+        <h1>Vector</h1>
+        <div data-role="navBar">
+          <ul>
+            <a data-role="button" data-icon="home" href="#home">Home</a>
+            <a data-role="button" data-icon="mail" href="#contactus"
+              >Contact Us</a
+            >
+            <a data-role="button" data-icon="user" href="#managementGrid"
+              >Management Grid</a
+            >
+            <a
+              data-role="button"
+              data-icon="star"
+              class="ui-btn-active"
+              href="#managementCollapse"
+              >Management Collapsible Content</a
+            >
+          </ul>
+        </div>
+      </header>
+      <!-- Page Body -->
+      <section class="ui-content" role="main">
+        <h2>Management</h2>
+        <h4>This is management page</h4>
 
         <a
           href="#"
