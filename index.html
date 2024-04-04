@@ -108,7 +108,21 @@
       </header>
       <!-- Page body -->
       <section class="ui-content" role="main">
+        <script>
+          $(document).ready(function () {
+            $("#vprospect").click(function () {
+              $("#solution").load("solutions.html #vprospect");
+            });
+            $("#vretain").click(function () {
+              $("#solution").load("solutions.html #vretain");
+            });
+          });
+        </script>
         <h2>Contact Us</h2>
+        <p>What would you like to contact us for?</p>
+        <a id="vprospect" href="#">vProspect 2.0</a>
+        <a id="vretain" href="#">vRetain 1.0</a>
+        <div id="solution"></div>
         <h4>
           Please contact us by phone, mail, or email... whatever works best for
           you
